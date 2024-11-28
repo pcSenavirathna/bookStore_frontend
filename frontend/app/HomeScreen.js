@@ -50,6 +50,7 @@ const HomeScreen = () => {
 
 	// Function to handle card press and navigate to another page
 	const handleCardPress = (cardId) => {
+		// Ensure the correct dynamic URL is used
 		router.push(`/CardDetail/${cardId}`);
 	};
 
@@ -145,7 +146,6 @@ const HomeScreen = () => {
 		</View>
 	);
 };
-
 
 const styles = StyleSheet.create({
 	container: {
